@@ -6,6 +6,8 @@ function App() {
       <div>This is the home page</div>
       <br />
       <div>this is the second line here</div>
+      <br />
+      <div>this is the second line here</div>
     </div>
   );
 }
