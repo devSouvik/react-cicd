@@ -63,3 +63,6 @@ jobs:
           context: .
           push: true
           tags: orionleo/reactapp:latest
+        env:
+          DOCKER_USERNAME: ${{ secrets.USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
